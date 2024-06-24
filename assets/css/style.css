@@ -20,18 +20,23 @@ body{
 /* header */
 header {
     background-color: #3a3a3a;
-
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
 }
 h1{
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     color: #fff;
+    
 }
 /* main */
 main {
-    background-color: #3a3a3a;
+    background-color: #ffff;
     /* make main take up any extra space to push the footer to the bottom */
     flex: 1 0 auto;
+    color: #3a3a3a;
     
 }
 /* footer */
