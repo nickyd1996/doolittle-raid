@@ -24,6 +24,9 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 h1{
     font-family: 'Oswald', sans-serif;
@@ -46,8 +49,23 @@ nav {
     width: 100%;
     list-style-type: none;
     left: 0;
-   
+    padding: 0 1rem;
+   display: none;
+   top: 100%;
 }
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+
+}
+#nav-toggle {
+    display: none;
+
+}
+.nav-toggle-label{
+    font-size: 2rem;
+}
+
 #nav{
     margin-bottom: 1em;
 }
