@@ -19,12 +19,13 @@ body{
 }
 /* header */
 header {
-    background-color: #fff;
+    background-color: #3a3a3a;
 
 }
 h1{
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
+    color: #fff;
 }
 /* main */
 main {
