@@ -13,7 +13,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #3a3a3a;
+    color: #fff;
     font-family: 'Lato', sans-serif;
 
 }
@@ -29,12 +29,12 @@ h1{
 }
 /* main */
 main {
-    background-color: lightblue;
+    background-color: #3a3a3a;
     /* make main take up any extra space to push the footer to the bottom */
     flex: 1 0 auto;
     
 }
 /* footer */
 footer { 
-    background-color: orange;
+    background-color: #3a3a3a;
 }
