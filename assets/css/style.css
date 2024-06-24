@@ -31,6 +31,10 @@ h1{
     color: #fff;
     
 }
+header a {
+    text-decoration: none;
+    color: inherit;
+}
 /* navbar styles */
 nav {
     position: absolute;
@@ -41,7 +45,10 @@ nav {
     color: #fff;
     width: 100%;
     list-style-type: none;
-    border-bottom-width: 10rem;
+   
+}
+#nav{
+    margin-bottom: 1em;
 }
 /* main */
 main {
