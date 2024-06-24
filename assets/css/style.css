@@ -82,6 +82,7 @@ main {
 /* footer */
 footer { 
     background-color: #3a3a3a;
+    line-height: 50px;
     
 }
 #social-media-tags{
