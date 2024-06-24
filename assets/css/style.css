@@ -82,6 +82,18 @@ main {
 /* footer */
 footer { 
     background-color: #3a3a3a;
+    
+}
+#social-media-tags{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    list-style-type: none;
+}
+#social-media-tags i {
+    font-size: 200%;
+    color: #fff;
 }
 /* media query: tablets and larger*/
 @media screen and (min-width: 768px){
