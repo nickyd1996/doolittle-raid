@@ -14,7 +14,7 @@ body{
     display: flex;
     flex-direction: column;
     color: #3a3a3a;
-    font-family: 'Poppins';
+    font-family: 'Lato', sans-serif;
 
 }
 /* header */
