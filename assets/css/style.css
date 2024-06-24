@@ -50,8 +50,8 @@ nav {
     list-style-type: none;
     left: 0;
     padding: 0 1rem;
-   display: none;
-   top: 100%;
+    display: none;
+    top: 100%;
 }
 /* Nav toggle */
 #nav-toggle:checked~nav {
@@ -68,6 +68,7 @@ nav {
 
 #nav{
     margin-bottom: 1em;
+    list-style-type: none;
 }
 /* main */
 main {
@@ -75,9 +76,39 @@ main {
     /* make main take up any extra space to push the footer to the bottom */
     flex: 1 0 auto;
     color: #3a3a3a;
+    margin-top: 50px;
     
 }
 /* footer */
 footer { 
     background-color: #3a3a3a;
+}
+/* media query: tablets and larger*/
+@media screen and (min-width: 768px){
+    nav{
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+        font-size: 150%;
+    }
+    #nav {
+        display: flex;
+        flex-direction: row;
+    }
+    #nav > li {
+        padding-left: 1rem;
+    }
+    .nav-toggle-label{
+        display: none;
+    }
+    #logo {
+        font-size: 280%;
+        line-height: 80px;
+        margin: 0 0.5rem;
+    }
+    main{
+        margin-top: 90px;
+    }
+    
 }
