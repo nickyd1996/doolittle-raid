@@ -85,6 +85,9 @@ main {
     width: 100%;
     background: url(../images/fighterjetsky.jpg) no-repeat center center;
 }
+#what-was-it {
+    flex-direction: row;
+}
 /* footer */
 footer { 
     background-color: #3a3a3a;
