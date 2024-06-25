@@ -150,10 +150,18 @@ main {
 }
 .text-input {
     background: transparent;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
 }
 .comment-box {
     background: transparent;
+}
+.join-button {
+    background-color: rgb(182, 186, 225);
+    margin-top: 20px;
+    padding: 15px ;
+    font-size: 100%;
 }
 h3{
     font-size: 3rem;
