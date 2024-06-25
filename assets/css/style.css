@@ -129,6 +129,14 @@ main {
     flex-wrap: wrap;
 }
 
+/*Gallery styles*/ 
+#photos img {
+    width: 100%;
+    line-height: 1em;
+    }
+#photos {
+    line-height: 0;
+}
 /* footer */
 footer { 
     background-color: #3a3a3a;
