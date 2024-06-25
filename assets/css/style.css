@@ -154,6 +154,13 @@ footer {
     font-size: 200%;
     color: #fff;
 }
+/* media query for large phones */
+@media screen and (min-width:576px) {
+    #photos{
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 /* media query: tablets and larger*/
 @media screen and (min-width: 768px){
     nav{
@@ -230,10 +237,18 @@ footer {
     .times3{
         width: 33%;
     }
+    #photos{
+        column-count: 3;
+        column-gap: 0;
+    }
 }
 /* Hover feature for larger devices */
 @media screen and (min-width:992px) {
     #nav  a:hover {
         border: 1px solid #fff ;
+    }
+    #photos{
+        column-count: 4;
+        column-gap: 0;
     }
 }
