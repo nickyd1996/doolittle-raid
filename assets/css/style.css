@@ -79,13 +79,49 @@ main {
     margin-top: 50px;
     
 }
+.parent{
+    width: 100vw;
+    height: 100vh;
+}
+.child1{
+    background: url('../images/DoolittleFighterJet1.jpg') no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+}
+.child2{
+    height: 50vw;
+    width: 90vw;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #3a3a3a;
+    color: #fff;
+    justify-content: center;
+}
+.child3 {
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;
+    background-color: #3a3a3a;
+    color: #fff;
+}
+.child4{
+    background: url('../images/Bombers3comp.png') no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+}
 /* Hero Image Section */
 #hero {
     height: 790px;
     width: 100%;
     background: url(../images/fighterjetsky.jpg) no-repeat center center;
 }
-
+.tours h2{
+    border-bottom: 20px;
+    font-size: 2rem;
+}
 
 /* footer */
 footer { 
@@ -139,7 +175,7 @@ footer {
     }
     .child1 {
         width: 50%;
-        height: 100%;
+        height: 400px;
         font-size: 1.5rem;
         background-color: #3a3a3a;
        
@@ -147,24 +183,28 @@ footer {
     .child2{
         width: 50%;
         height: 100%;
-        font-size: 2rem;
+        font-size: 1.5rem;
+        text-align: center;
 
     }
     .child3 {
         width: 50%;
-        height: 100px;
+        height: 100%;
         font-size: 1.5rem;
-       
+        text-align: center;
+        
     }
     .child4{
         width: 50%;
-        height: 100px;
+        height: 100%;
+        min-height: 50px;
         font-size: 2rem;
         background-color: #3a3a3a;
     }
+   
     .tours  {
         width: 100vw;
-        height: 100vh;
+        height: 100px;
         display: flex;
     }
     .times1 {
