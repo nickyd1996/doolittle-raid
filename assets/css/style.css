@@ -84,13 +84,13 @@ main {
     height: 100vh;
 }
 .child1{
-    background: url('../images/DoolittleFighterJet1.jpg') no-repeat top center / cover;
+    background: url('../images/DoolittleFighterJet.webp') no-repeat top center / cover;
     height: 90vw;
-    width: 90vw;
+    width: 100%;
 }
 .child2{
     height: 90vw;
-    width: 90vw;
+    width: 100%;
     font-size: 1rem;
     text-align: center;
     background-color: #3a3a3a;
@@ -107,7 +107,7 @@ main {
     color: #fff;
 }
 .child4{
-    background: url('../images/Bombers3comp.png') no-repeat top center / cover;
+    background: url('../images/bombers3inarow.webp') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -116,11 +116,17 @@ main {
 #hero {
     height: 790px;
     width: 100%;
-    background: url(../images/fighterjetsky.jpg) no-repeat center center;
+    background: url(../images/fighterjetsky.webp) no-repeat center center;
 }
 .tours h2{
     border-bottom: 20px;
     font-size: 2rem;
+}
+.tours {
+    background: url('../images/navy-fighters.webp') no-repeat center/cover;
+    /* Handles responsivity without the need for a media query */
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* footer */
