@@ -79,6 +79,12 @@ main {
     margin-top: 50px;
     
 }
+/* Hero Image Section */
+#hero {
+    height: 790px;
+    width: 100%;
+    background: url(../images/fighterjetsky.jpg) no-repeat center center;
+}
 /* footer */
 footer { 
     background-color: #3a3a3a;
