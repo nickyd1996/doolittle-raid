@@ -77,6 +77,9 @@ main {
     flex: 1 0 auto;
     color: #3a3a3a;
     margin-top: 50px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
     
 }
 .parent{
@@ -137,6 +140,32 @@ main {
 #photos {
     line-height: 0;
 }
+/* form design */
+#signup {
+    background: url(../images/fighterjetbackview.webp);
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+.text-input {
+    background: transparent;
+
+}
+.comment-box {
+    background: transparent;
+}
+h3{
+    font-size: 3rem;
+    color: #3a3a3a;
+    font-weight: bolder;
+}
+#signup {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #3a3a3a;
+}
+
 /* footer */
 footer { 
     background-color: #3a3a3a;
