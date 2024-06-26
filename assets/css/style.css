@@ -96,8 +96,6 @@ main {
     width: 100%;
     font-size: 1rem;
     text-align: center;
-    background-color: #3a3a3a;
-    color: #fff;
     justify-content: center;
 }
 .child3 {
@@ -106,8 +104,7 @@ main {
     font-size: 1rem;
     text-align: center;
     justify-content: center;
-    background-color: #3a3a3a;
-    color: #fff;
+    
 }
 .child4{
     background: url('../images/bombers3inarow.webp') no-repeat top center / cover;
@@ -117,19 +114,23 @@ main {
 }
 /* Hero Image Section */
 #hero {
-    height: 790px;
+    height: 600px;
     width: 100%;
-    background: url(../images/fighterjetsky.webp) no-repeat center center;
+    background: url(../images/fighterjetsky.webp) no-repeat center center/cover;
 }
-.tours h2{
+#tourhead {
     border-bottom: 20px;
     font-size: 2rem;
+    background-color: #3a3a3a;
+    color: #fff;
 }
-.tours {
+
+#tours {
     background: url('../images/navy-fighters.webp') no-repeat center/cover;
     /* Handles responsivity without the need for a media query */
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 20px;
 }
 
 /*Gallery styles*/ 
