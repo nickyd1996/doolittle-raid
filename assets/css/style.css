@@ -34,6 +34,12 @@ h1{
     color: #fff;
     
 }
+h2 {
+    font-size: 1.5rem;
+}
+h3{
+    font-size: 1.5rem;
+}
 header a {
     text-decoration: none;
     color: inherit;
@@ -173,7 +179,7 @@ main {
     font-size: 100%;
 }
 h3{
-    font-size: 3rem;
+    font-size: 1.5rem;
     color: #3a3a3a;
     font-weight: bolder;
 }
@@ -250,14 +256,14 @@ footer {
     .info {
         width: 50%;
         height: 400px;
-        font-size: 1.25rem;
+        font-size: 1rem;
         text-align: center;
 
     }
     .info2 {
         width: 50%;
         height: 100%;
-        font-size: 1.25rem;
+        font-size: 1rem;
         text-align: center;
         
     }
@@ -285,6 +291,12 @@ footer {
     #photos{
         column-count: 3;
         column-gap: 0;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 3rem;
     }
 }
 /* Hover feature for larger devices */
