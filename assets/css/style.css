@@ -9,6 +9,7 @@
     box-sizing: border-box;
 }
 
+
 body{
     min-height: 100vw;
     display: flex;
@@ -39,6 +40,9 @@ h2 {
 }
 h3{
     font-size: 1.5rem;
+}
+.header-hero {
+    visibility: hidden;
 }
 header a {
     text-decoration: none;
@@ -162,6 +166,7 @@ main {
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
+    max-height: 90%;
 }
 .text-input {
     background: transparent;
@@ -182,6 +187,9 @@ h3{
     font-size: 1.5rem;
     color: #3a3a3a;
     font-weight: bolder;
+}
+#photos > h2{
+    visibility: hidden;
 }
 #signup {
     font-size: 1rem;
