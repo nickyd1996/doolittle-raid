@@ -141,4 +141,68 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 
  ## Validation results
 
- 
+ <details>
+<summary>index.html
+</summary>
+
+![Home Page validation result](assets/images-for-readme/html-validation.png)
+</details>
+<details>
+<summary>gallery.html
+</summary>
+
+![Gallery validation result](assets/images-for-readme/html-validation.png)
+</details>
+<details>
+<summary>sign-up.html
+</summary>
+
+![Sign Up page validation result](assets/images-for-readme/html-validation.png)
+</details>
+<details>
+<summary>form-received.htmml
+</summary>
+
+![Application Received validation result](assets/images-for-readme/html-validation.png)
+</details>
+<details>
+<summary>style.css
+</summary>
+
+![CSS Validation Result](assets/images-for-readme/css-validation.png)
+
+### Manual Testing
+
+* The website was tested on Google Chrome, Microsoft Edge, and Safari.
+* The website was viewed on a desktop computer, laptop, and Iphone 12 Pro.
+* A large amount of testing was done to ensure links between pages are working correctly on all pages.
+* Family and friends were asked to review the website for a better understanding of the user experience.
+* Dev Tools was used to test how the site looks on various screen sizes.
+
+### Lighthouse Report
+
+#### Desktop analysis
+<details>
+<summary>Home Page
+</summary>
+
+![Home Page lighthouse report](assets/images-for-readme/lighthouse-home.jpg)
+</details>
+<details>
+<summary>Gallery
+</summary>
+
+![Gallery lighthouse report](assets/images-for-readme/lighthouse-gallery-page.jpg)
+</details>
+<details>
+<summary>Sign Up
+</summary>
+
+![Sign Up Page lighthouse report](assets/images-for-readme/lighthouse-sign-up.png)
+</details>
+<details>
+<summary>Thank You Page
+</summary>
+
+![Application received lighthouse report](assets/images-for-readme/lighthouse-thank-you.png)
+</details>
