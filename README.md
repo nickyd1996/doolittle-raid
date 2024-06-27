@@ -11,6 +11,25 @@ In the footer section there are links to social media.
 
 ## Table of Contents
 
+### [User Experience (UX)](#user-experience-ux-1)
+* [User Stories](#user-stories)
+### [Design](#design-1)
+### [Features](#features)
+* [Existing Features](#existing-features)
+### [Features Left to Implement](#features-left-to-implement-1)
+### [Technologies Used](#technologies-used-1)
+### [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used-1)
+### [Testing](#testing-1)
+## [Validation Results](#validation-results)
+* [Manual Testing](#manual-testing)
+* [Lighthouse Report](#lighthouse-report)
+### [Deployment and local development](#deployment-and-local-development-1)
+* [GitHub Pages](#github-pages)
+* [Forking the GitHub Repository](#forking-the-github-repository)
+* [Local Clone](#local-clone)
+### [Credits](#credits)
+### [Acknowledgements](#acknowledgements-1)
+---
 
 
 ## User Experience (UX)
@@ -45,8 +64,9 @@ They can use the sign-up page to get in contact with the company itself as well 
   
   * Wireframes
     * Pen and Paper : kept it simple. 
+- - - 
 
-## Features
+### Features
 
  * This website is for anyone interested in the Doolittle Raid. 
  * They can navigate all the pages and sign-up for a tour by filling out a form.
@@ -131,6 +151,7 @@ They can use the sign-up page to get in contact with the company itself as well 
     * Imported fonts to the website.
  * [Am I Responsive](https://ui.dev/amiresponsive)
    * Mockup picture for the README file.
+- - -
 
 ## Testing
 
@@ -170,6 +191,7 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 </summary>
 
 ![CSS Validation Result](assets/images-for-readme/css-validation.png)
+- - - 
 
 ### Manual Testing
 
@@ -206,3 +228,59 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 
 ![Application received lighthouse report](assets/images-for-readme/lighthouse-thank-you.png)
 </details>
+
+## Deployment and local development
+
+### GitHub Pages
+
+GitHub Pages used to deploy live version of the website.
+1. Log in to GitHub and locate [GitHub Repository Doolittle Raid](https://github.com/nickyd1996/doolittle-raid)
+2. At the top of the Repository(not the main navigation) locate "Settings" button on the menu.
+3. Scroll down the Settings page until you locate "GitHub Pages".
+4. Under "Source", click the dropdown menu "None" and select "Main" and click "Save".
+5. The page will automatically refresh.
+6. Scroll back to locate the now-published site [link]() in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+By forking the repository, we make a copy of the original repository on our GitHub account to view and change without affecting the original repository by using these steps:
+
+1. Log in to GitHub and locate [GitHub Repository Doolittle Raid](https://github.com/nickyd1996/doolittle-raid)
+2. At the top of the Repository(under the main navigation) locate "Fork" button.
+3. Now you should have a copy of the original repository in your GitHub account.
+
+### Local Clone
+
+1. Log in to GitHub and locate [GitHub Repository Doolittle Raid](https://github.com/nickyd1996/doolittle-raid)
+2. Under the repository name click "Clone or download"
+3. Click on the code button, select clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone` and then paste The URL copied in the step 3.
+7. Press Enter and your local clone will be created.
+
+---
+
+## Credits
+
+### Code
+ * Understanding the concept of flexbox was learned through [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+ * The README template was helpfully provided by [Code Institute (template)](https://github.com/Code-Institute-Solutions/SampleREADME)
+
+### Content
+
+ * All content was written by the developer using experience from what they have learnt in the first module.
+ * [Color contrast checker](https://coolors.co/contrast-checker/112a46-acc8e5) was used to decide which colors would be used for the website.
+ * Brittanica was used for information.
+
+### Media 
+
+ * [Pexels](https://www.pexels.com/) free stock photos, royalty free images.
+ * [Pixabay](https://pixabay.com/) free stock photos, royalty free images.
+ * [Convertio](https://convertio.co/jpg-webp/) Converting Images.
+---
+
+## Acknowledgements
+
+ * My mentor Mitko Bachvarov provided helpful feedback and a link to the Flexbox guide.
+ * Slack community for encouragement and information.
