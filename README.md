@@ -191,6 +191,7 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 </summary>
 
 ![CSS Validation Result](assets/images-for-readme/css-validation.png)
+</details>
 - - - 
 
 ### Manual Testing
@@ -231,7 +232,7 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 
 ## Deployment and local development
 
-### GitHub Pages
+## GitHub Pages
 
 GitHub Pages used to deploy live version of the website.
 1. Log in to GitHub and locate [GitHub Repository Doolittle Raid](https://github.com/nickyd1996/doolittle-raid)
