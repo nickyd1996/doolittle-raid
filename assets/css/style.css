@@ -297,3 +297,9 @@ footer {
         column-gap: 0;
     }
 }
+@media screen and (min-width 1750px) {
+    .section{
+        max-width: 90%;
+    }
+    
+}
